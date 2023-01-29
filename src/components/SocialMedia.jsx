@@ -15,7 +15,7 @@ function SocialMedia() {
           <a href="https://github.com/Vedant91827" target="_blank" rel="noreferrer"><FaGithub/></a>
         </div>
         <div>
-        <a href="/#" target="_blank" rel="noreferrer"><BsTwitter/></a>
+        <a href="/https://twitter.com/Vedant3927" target="_blank" rel="noreferrer"><BsTwitter/></a>
         </div>
     </div>
   )

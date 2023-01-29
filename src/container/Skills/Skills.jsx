@@ -70,14 +70,14 @@ function Skills() {
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
                     </motion.div>
-                    {/* <Tooltip
+                    <Tooltip
                       id={work.name}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
                       {work.desc}
-                    </Tooltip> */}
+                    </Tooltip>
                 
                   </>
                 ))}

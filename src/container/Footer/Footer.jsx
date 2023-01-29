@@ -51,6 +51,10 @@ const Footer = () => {
             <img src={images.mobile} alt="email" />
             <a href="tel :vedant3927@gmail.com" className='p-text'>Mobile No</a>
         </div>
+        <div className='app__card'>
+            <img src={images.resume} alt="resume" />
+            <a href="https://drive.google.com/drive/folders/1CI60Wqq0PTA7-WPZMoyzclyzwfsgXcI0?usp=sharing" target="_blank" rel="noreferrer" className='p-text' >Resume</a>
+        </div>
       </div>
 
       {!isFormSubmitted ? 

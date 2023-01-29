@@ -11,9 +11,10 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 4rem 2rem 2rem;
+    text-decoration: none;
 
     .app__card{
-        min-width: 290px;
+        min-width: 250px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -24,6 +25,7 @@
         border-radius: 10px;
         cursor: pointer;
         background-color: #fef4f5;
+        text-decoration: none;
 
         transition: all 0.3s ease-in-out;
 
@@ -56,7 +58,11 @@
 }
 
 .app__footer-cards .app__card:last-child{
-    background-color: #f2f7fb;
+    background-color: rgb(233, 241, 231);
+}
+
+.app__footer-cards .app__card:nth-child(2){
+    background-color: var(--primary-color);
 }
 
 .app__footer-form{
